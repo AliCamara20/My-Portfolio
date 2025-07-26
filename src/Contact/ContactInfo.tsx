@@ -14,13 +14,13 @@ const ContactInfo = () => {
             
         >
             <Info  label="+220 5859303" >
-                <FontAwesomeIcon icon={faPhone} size="2x" color="hsl(219, 57%, 20%)" />
+                <FontAwesomeIcon icon={faPhone} size="2x" color="hsl(219, 57%, 30%)" />
             </Info>
             <Info label="Brikama Jamisa" >
-                <FontAwesomeIcon icon={faLocation}  size="2x" color="hsl(219, 57%, 20%)" />      
+                <FontAwesomeIcon icon={faLocation}  size="2x" color="hsl(219, 57%, 30%)" />      
             </Info>
-            <Info label="alicamara2043@gmail.com" >
-                <FontAwesomeIcon icon={faEnvelope} size="2x" color="hsl(219, 57%, 20%)" />
+            <Info label="camaraali2143@gmail.com" >
+                <FontAwesomeIcon icon={faEnvelope} size="2x" color="hsl(219, 57%, 30%)" />
             </Info>
         </motion.div>
     )
