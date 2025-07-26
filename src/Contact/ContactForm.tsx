@@ -7,8 +7,8 @@ const ContactForm = () => {
         
         <motion.form action="" 
             variants={childrenVariant}
-            initial = {{opacity: 0, x: 500}}
-            whileInView={{opacity: 1, x: 0}}
+            initial = {{opacity: 0, y: 300}}
+            whileInView={{opacity: 1, y: 0}}
             transition={{duration: 1}}
             viewport={{once: true}}
         >
