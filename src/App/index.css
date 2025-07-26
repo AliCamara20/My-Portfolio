@@ -25,7 +25,7 @@ nav{
 }
 
 img{
-  animation: skeleton-loading 1s infinite linear;
+  animation: skeleton-loading 1s infinite linear alternate;
 }
 
 @keyframes skeleton-loading {
