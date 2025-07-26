@@ -5,9 +5,7 @@ import { motion } from 'framer-motion';
 import { childrenVariant } from '../Data/animationObjects';
 
 const Navbar = ( prop:{isActive: boolean} ) => {
-   let navClassName = '';
-   if(prop.isActive) navClassName = 'block'
-   else navClassName = 'hidden'
+   
   
    const scrollableContext  = useContext<any>(ScrollContext)
 

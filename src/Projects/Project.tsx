@@ -1,11 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import type{Project } from "../Data/data"
-import { faImage, faLink} from "@fortawesome/free-solid-svg-icons"
 import { motion } from "framer-motion"
 import { childrenVariant } from "../Data/animationObjects"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import ProjectDescription from "./ProjectDesc"
-import { div } from "framer-motion/client"
 import ProjectImage from "./ProjectImage"
 
 

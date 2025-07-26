@@ -1,4 +1,3 @@
-import type React from "react"
 import { motion } from "framer-motion"
 interface NavlinkProp{
     label: string, 
