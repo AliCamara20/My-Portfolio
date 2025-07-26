@@ -29,7 +29,7 @@ const Home = () => {
                     in HTML, CSS, JavaScript, and React
                 </p>
             </motion.div>
-            <motion.img src={heroImg} alt="" className='sm:max-md: order-first 
+            <motion.img src={heroImg} alt="" className=' s_img sm:max-md: order-first 
                 sm:max-md: w-full md:order-last rounded-[10px] sm:max-md: mb-[2rem] 
                 sm:max-md: h-70 object-cover md:w-1/4 md:h-80 md:min-w-[270px]
                 md:max-lg: max-w-[300px] md:max-lg: mr-auto' 

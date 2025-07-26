@@ -24,7 +24,7 @@ nav{
   animation: scale 1s linear;
 }
 
-img{
+.s_img{
   animation: skeleton-loading 1s infinite linear alternate;
 }
 
