@@ -24,6 +24,18 @@ nav{
   animation: scale 1s linear;
 }
 
+img{
+  animation: skeleton-loading 1s infinite linear;
+}
+
+@keyframes skeleton-loading {
+  0%{
+    background-color: hsl(219, 57%, 15%);
+  }
+  100%{
+    background-color: hsl(219, 57%, 20%);
+  }
+}
 
 
 @keyframes scale {
