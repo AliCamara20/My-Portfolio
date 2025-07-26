@@ -13,7 +13,7 @@ interface ProjectDescProp{
 const ProjectDescription = (prop: ProjectDescProp) => {
     const tool = prop.projectTools.map( (tool ,index) => <ProjectTool img={tool} key={index} /> )
   return(
-    <div className="pr_desc w-full   p-[1em] rounded-b-[10px]">
+    <div className="pr_desc w-full   p-[1em] rounded-b-[10px] ">
         <h2 className="text-xl font-semibold mb-[.5em]">{prop.projectName}</h2>
         <p className="text-md text-gray-300 w-full">{prop.description}</p>
         <div className=""

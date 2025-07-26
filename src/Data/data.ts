@@ -1,7 +1,7 @@
 import html from '../assets/html5.svg'
 import css from '../assets/css3.svg'
 import js from '../assets/js.svg'
-import react_js from '../assets/Git.svg'
+import react_js from '../assets/react_.svg'
 import typescript from '../assets/typescript.svg'
 import git from '../assets/Git.svg'
 import tailwind from '../assets/tailwind-icon.svg'
@@ -11,6 +11,7 @@ import contact_view from '../assets/contact-view.png'
 import house from '../assets/real-estate.png'
 import justice_img from '../assets/law-firm.png'
 import dashboard_img from '../assets/dashboard.png'
+import vercel from '../assets/vercel.svg'
 
 
 
@@ -51,7 +52,7 @@ export const projects: Project[] = [
             integration for location visualization. Hosted on Vercel, it ensures fast performance and 
             seamless deployment.`,
         image: house,
-        tools: [react_js, css],
+        tools: [react_js, css, vercel],
         siteLink: 'https://react-estate-website.vercel.app/',
         gitRepoLink: 'https://github.com/AliCamara20/Real-estate-website.git'
 
@@ -125,7 +126,7 @@ export const projects: Project[] = [
             From there, users can easily edit or delete contact information, making contact management 
             simple and efficient.`,
         image: contact_view,
-        tools:[react_js, css],
+        tools:[react_js, css, vercel],
         siteLink: 'https://contact-book-flame.vercel.app/',
         gitRepoLink: 'https://github.com/AliCamara20/Contact-book.git'
          
