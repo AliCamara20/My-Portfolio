@@ -43,7 +43,13 @@ export const images: Image[] = [
 export const projects: Project[] = [
     {
         id: 1, name: 'Real Estate Website', 
-        description: 'Designed and developed a fully responsive real estate website',
+        description: `This real estate website is a modern, responsive platform built 
+            using React for a dynamic and interactive user experience, with custom CSS 
+            styling to ensure a clean, professional design. It allows users to browse and filter property 
+            listings, view details with images, and contact agents easily.
+            The website also features a contact form for inquiries and a map 
+            integration for location visualization. Hosted on Vercel, it ensures fast performance and 
+            seamless deployment.`,
         image: house,
         tools: [react_js, css],
         siteLink: 'https://react-estate-website.vercel.app/',
@@ -53,7 +59,10 @@ export const projects: Project[] = [
 
     {
         id: 2, name: 'Law Firm Website', 
-        description: 'Designed and developed a fully responsive real estate website',
+        description: `This law firm website is built with React and styled using CSS for a professional, 
+            responsive design. It includes sections such as About, Practice Areas, Attorneys, Testimonials, 
+            Blog, and Contact, providing clear and accessible information. Call-to-action buttons throughout 
+            the site invite visitors to subscribe to the firm's newsletter.`,
         image: justice_img,
         tools: [react_js, css],
         siteLink: 'https://github.com/AliCamara20.github.io/Law-Firm/',
@@ -63,7 +72,11 @@ export const projects: Project[] = [
     , 
     {
         id: 3, name: 'Admin Dashboard', 
-        description: 'Designed and developed a fully responsive real estate website',
+        description: `This admin dashboard is built with React and styled using CSS, offering a clean and 
+            intuitive interface. It allows you to view key metrics such as total customers, members, 
+            and currently active customers. The customer table displays names, locations, 
+            images, and emails, with sorting options by name and location. A pagination feature lets 
+            you navigate through the customer list, showing ten entries per page for easier browsing.`,
         image: dashboard_img,
         tools: [react_js, css],
         siteLink: 'https://github.com/AliCamara20.github.io/Dashboard/',
@@ -73,7 +86,14 @@ export const projects: Project[] = [
 
     {
         id: 4, name: 'Fashion Blog Website', 
-        description: 'Designed and developed a fully responsive real estate website',
+        description:   `This fashion blog is built with HTML, CSS, and JavaScript, 
+            offering a sleek and visually engaging design. Each blog post displays a title, 
+            release date, a like button for user engagement, and a comment section for replies. 
+            The site also features dedicated sections such as Popular Posts, Inspirations, and Tags 
+            to help users explore related content. Advertisements are seamlessly integrated, and a 
+            subscription section invites visitors to sign up for the latest fashion updates, trends, 
+            and new posts. The layout is responsive and designed to provide an enjoyable 
+            reading experience across all devices.`,
         image: accessories,
         tools: [html, css, js],
         siteLink: 'https://github.com/AliCamara20.github.io/Blog-website/Blog.html',
@@ -83,7 +103,13 @@ export const projects: Project[] = [
 
     {
         id: 5, name: 'Cafe Website', 
-        description: 'Designed and developed a fully responsive real estate website',
+        description: `This café website is built with HTML, CSS, and JavaScript, featuring a warm and 
+            inviting design that reflects the café’s atmosphere. Visitors can explore the full menu for 
+            food and drinks,  view the café’s location, and place orders directly through the site. 
+            It also includes a section about the owner, sharing the story behind the café, along with 
+            clearly displayed opening and closing hours. The layout is responsive and easy to navigate, 
+            providing a smooth user experience on both desktop and mobile devices.
+`,
         image: cafe_img,
         tools: [html, css, js],
         siteLink: 'https://github.com/AliCamara20.github.io/Cafe-website',
@@ -93,7 +119,11 @@ export const projects: Project[] = [
 
     {
         id: 6, name: 'Contact Book', 
-        description: 'Designed and developed a fully responsive real estate website',
+        description: `This contact app is built with React and styled using CSS, 
+            offering a clean and responsive interface. Hosted on Vercel, it allows users to add 
+            new contacts, view a list of saved contacts, and navigate to individual contact pages. 
+            From there, users can easily edit or delete contact information, making contact management 
+            simple and efficient.`,
         image: contact_view,
         tools:[react_js, css],
         siteLink: 'https://contact-book-flame.vercel.app/',
