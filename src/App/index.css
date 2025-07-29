@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+
+
+
+body{
+  background-color: #0c172c;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  
+}
+h1 {
+  line-height: 1.1;
+}
+header{
+  background: #0c172c;
+}
+nav{
+  background-color: #0c172c;
+}
+
+.p-card{
+ background: rgba(0, 0, 0, .7);
+}
+
+.modal{
+  animation: scale 1s linear;
+}
+
+
+
+@keyframes scale {
+ 0%{
+  transform: scale(0);
+ } 
+ 100%{
+  transform: scale(1);
+ } 
+}
+
+.modal_c::-webkit-scrollbar{
+  display: none;
+}
+
+.p_desc{
+  background-color: #0c172c;
+  
+}
+.link, .p_desc, .pr_desc, .custom_bg{
+  border: 1px solid hsl(219, 57%, 20%);
+}
+.pr_desc{
+  background-color: #111d34;
+
+}
+
+.custom_bg{
+  background-color: hsl(219, 57%, 15%);
+}
+
+.link:hover, .p_desc:hover{
+ background-color: hsl(219, 57%, 15%);
+ transition: .5s ease;
+}
+
