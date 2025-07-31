@@ -66,7 +66,7 @@ export const projects: Project[] = [
             the site invite visitors to subscribe to the firm's newsletter.`,
         image: justice_img,
         tools: [react_js, css],
-        siteLink: 'https://github.com/AliCamara20.github.io/Law-Firm/',
+        siteLink: 'https://github.com/alicamara20.github.io/Law-Firm/',
         gitRepoLink: 'https://github.com/AliCamara20/Law-Firm.git'
          
     }
@@ -80,7 +80,7 @@ export const projects: Project[] = [
             you navigate through the customer list, showing ten entries per page for easier browsing.`,
         image: dashboard_img,
         tools: [react_js, css],
-        siteLink: 'https://github.com/AliCamara20.github.io/Dashboard/',
+        siteLink: 'https://github.com/alicamara20.github.io/Dashboard/',
         gitRepoLink: 'https://github.com/AliCamara20/Dashboard.git'
          
     }, 
@@ -97,7 +97,7 @@ export const projects: Project[] = [
             reading experience across all devices.`,
         image: accessories,
         tools: [html, css, js],
-        siteLink: 'https://github.com/AliCamara20.github.io/Blog-website/Blog.html',
+        siteLink: 'https://github.com/alicamara20.github.io/Blog-website/Blog.html',
         gitRepoLink: 'https://github.com/AliCamara20/Blog-website.git'
          
     }, 
@@ -113,7 +113,7 @@ export const projects: Project[] = [
 `,
         image: cafe_img,
         tools: [html, css, js],
-        siteLink: 'https://github.com/AliCamara20.github.io/Cafe-website',
+        siteLink: 'https://github.com/alicamara20.github.io/Cafe-website',
         gitRepoLink: 'https://github.com/AliCamara20/Cafe-website.git'
          
     },
